@@ -1,0 +1,85 @@
+body {
+	background-color: black;
+	padding: 10px;
+}
+
+.smoke span {
+	animation: animate 10s linear infinite;
+	font-size: 19px;
+}
+
+.smoke span:nth-child(1) {
+	animation-delay: 0.1s;
+}
+.smoke span:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.smoke span:nth-child(3) {
+	animation-delay: 0.3s;
+}
+.smoke span:nth-child(4) {
+	animation-delay: 0.4s;
+}
+.smoke span:nth-child(5) {
+	animation-delay: 0.5s;
+}
+.smoke span:nth-child(6) {
+	animation-delay: 0.6s;
+}
+.smoke span:nth-child(7) {
+	animation-delay: 0.7s;
+}
+.smoke span:nth-child(8) {
+	animation-delay: 0.8s;
+}
+
+@keyframes animate {
+	0% {
+		filter: blur(0px);
+	}
+	30% {
+		filter: blur(0px);
+	}
+	80% {
+		filter: blur(30px);
+	}
+	100% {
+		filter: blur(0px);
+	}
+}
+
+.firstlatter {
+	font-weight: bold;
+	color: brown;
+}
+
+.horizontal-gradient1 {
+	background: linear-gradient(to right, #496d7e, black);
+}
+
+.homepage {
+	background-color: #135015;
+	color: whitesmoke;
+}
+
+a {
+	color: rgb(134, 128, 128);
+}
+
+h1{
+	color: rgb(216, 216, 216);
+}
+
+li {
+	font-style: italic;
+}
+
+hr {
+	color: whitesmoke;
+}
+
+
+
+
+
+
