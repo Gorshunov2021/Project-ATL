@@ -1,0 +1,58 @@
+body {
+   padding: 20px;
+   background-color: rgb(241, 241, 241);
+}
+
+a {
+   font-size: 20px;
+}
+
+tr {
+   font-size: 17px;
+}
+
+td, .info {
+   border-radius: 5px 5px 5px 5px;
+   font-weight: bolder;
+}
+
+li {
+   font-weight: bold;
+}
+
+#gradientWhite {
+   background-color: white; /*Белый Цвет*/
+   font-style: italic;
+   font-size: 12px;
+}
+
+#gradientSilver {
+   background-color: rgb(190, 190, 190); /*Серебристый Цвет*/
+   color: white;
+   font-style: italic;
+   font-size: 12px;
+}
+
+#gradientWetPavement {
+   background-color: rgb(95, 95, 95);  /*Цвет - Мокрый асфальт*/
+   color: white;
+   font-style: italic;
+   font-size: 12px;
+}
+
+#gradientRuby {
+   background-color: rgb(207, 39, 39);  /*Цвет - Рубиновый*/
+   color: white;
+   font-style: italic;
+   font-size: 12px;
+}
+
+.gradient5 {
+   background-color: rgb(88, 172, 109);  /*Цвет - Оливковый*/
+   color: white;
+}
+
+.gradient6 {
+   background-color: rgb(151, 140, 73);  /*Цвет - Звездная Пыль*/
+   color: white;
+}

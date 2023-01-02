@@ -35,16 +35,16 @@ body {
 
 @keyframes animate {
 	0% {
-		filter: blur(0px);
+		 filter: blur(0px);
 	}
 	30% {
-		filter: blur(0px);
+		 filter: blur(0px);
 	}
 	80% {
-		filter: blur(30px);
+		 filter: blur(30px);
 	}
 	100% {
-		filter: blur(0px);
+		 filter: blur(0px);
 	}
 }
 
@@ -52,6 +52,8 @@ body {
 	font-weight: bold;
 	color: brown;
 }
+
+
 
 .horizontal-gradient1 {
 	background: linear-gradient(to right, #496d7e, black);
