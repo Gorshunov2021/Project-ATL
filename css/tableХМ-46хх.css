@@ -24,6 +24,7 @@ li {
    background-color: white; /*Белый Цвет*/
    font-style: italic;
    font-size: 12px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 #gradientSilver {
@@ -31,6 +32,7 @@ li {
    color: white;
    font-style: italic;
    font-size: 12px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 #gradientWetPavement {
@@ -38,6 +40,7 @@ li {
    color: white;
    font-style: italic;
    font-size: 12px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 #gradientRuby {
@@ -45,6 +48,7 @@ li {
    color: white;
    font-style: italic;
    font-size: 12px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .gradient5 {
@@ -55,4 +59,9 @@ li {
 .gradient6 {
    background-color: rgb(151, 140, 73);  /*Цвет - Звездная Пыль*/
    color: white;
+}
+
+code {
+	background-color: rgb(172, 94, 94);
+	color: whitesmoke;
 }
